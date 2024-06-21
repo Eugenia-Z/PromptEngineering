@@ -8,4 +8,4 @@ template = chatPromptTemplate.from_messages([
     ("human", "{user_input}"),
 ])
 
-template.from_messages(user_input = "What is your name?")
+template.format_messages(user_input = "What is your name?")
